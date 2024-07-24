@@ -6,7 +6,9 @@
     padding: 20px 20px;
     position: relative;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-
+    width: 1855px;
+    position: relative;
+    height: 20px;
   }
   
   .navbar-left {
@@ -43,6 +45,9 @@
     border-radius: 20px;
     outline: none;
     width: 250px;
+    position: relative;
+    top: 20px;
+    right: 470px;
   }
   
   .search-icon {
@@ -78,4 +83,3 @@
   .hamburger:hover .bar {
     background-color: #b2dfdb;
   }
-  

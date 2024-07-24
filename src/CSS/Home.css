@@ -1,11 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Inter', 'sasn';
   color: #333;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f5f5dc;
+  background-color: white;
 }
 
 .homepage-container {
@@ -28,14 +34,14 @@ body {
 }
 
 .section1 {
-  background-color: #fff8dc;
+  background-color: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .section2 {
-  background-color: #fff8dc;
+  background-color: white;
   padding: 20px;
   border-radius: 10px;
   width: 62.8%;
@@ -44,13 +50,13 @@ body {
 }
 
 .section3 {
-  background-color: #fff8dc;
+  background-color: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .section3 {
-  background-color: #fff8dc;
+  background-color: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -96,7 +102,7 @@ body {
 }
 
 .game-card, .recommendation-item {
-  background-color: #fff8dc;
+  background-color: white;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   flex: 1;
@@ -104,11 +110,13 @@ body {
   transition: 0.3s;
   cursor: pointer;
   padding: 0px 0px 120px 0px;
+  position: relative;
+  bottom: 30px;
 }
 
 .g1 {
   width: 388px;
-  background-color: #fff8dc;
+  background-color: white;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   flex: 1;
@@ -147,12 +155,17 @@ body {
 }
 
 .footer {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #004d40;
   padding: 40px 20px;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  margin-top: 30px;
+  margin-top: 40px;
   text-align: center;
+  color: white;
+  z-index: 15;
+  position: relative;
+
+
 }
 
 .footer-content {
@@ -160,7 +173,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .footer-content > div {
@@ -171,13 +184,11 @@ body {
 
 .footer-title {
   font-size: 24px;
-  color: #333;
   margin-bottom: 15px;
 }
 
 .footer-description {
   font-size: 16px;
-  color: #666;
   margin-bottom: 10px;
 }
 
@@ -193,12 +204,12 @@ body {
 
 .footer-links .footer-list li a {
   text-decoration: none;
-  color: #333;
+  color: white;
   transition: color 0.3s ease;
 }
 
 .footer-links .footer-list li a:hover {
-  color: #2575fc;
+  color: lightblue;
 }
 
 .footer-social {
@@ -210,7 +221,7 @@ body {
 
 .social-icon {
   font-size: 24px;
-  color: #333;
+  color: white;
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
@@ -219,8 +230,21 @@ body {
   transform: scale(1.1);
 }
 
+.social-iconInsta{
+  font-size: 24px;
+  color: white;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-iconInsta:hover{
+  color: #2575fc;
+  transform: scale(1.1);
+}
+
 .footer-copy {
   font-size: 14px;
-  color: #666;
   margin-top: 20px;
 }
+
+/* ================================================================= */
+

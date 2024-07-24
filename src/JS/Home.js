@@ -28,7 +28,7 @@ const HomePage = () => {
           <div className="g1">
                 <img src={require('../mídia/game1.png')} alt="Game 1" className="game-image" />
                 <h3 className="game-title">Red Dead Redemption 2</h3>
-            </div>
+          </div>
         </section>
         <section className="section">
           <div className="games">
@@ -66,8 +66,8 @@ const HomePage = () => {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-about">
-            <h3 className="footer-title">Sobre o GameHub</h3>
-            <p className="footer-description">O GameHub é seu portal definitivo para todas as novidades e jogos populares. Fique atualizado com os lançamentos e eventos mais recentes no mundo dos games.</p>
+            <h3 className="footer-title">Sobre o Verde</h3>
+            <p className="footer-description">O Verde é seu portal definitivo para todas as novidades e jogos populares. Fique atualizado com os lançamentos e eventos mais recentes no mundo dos games.</p>
           </div>
           <div className="footer-links">
             <h3 className="footer-title">Links Úteis</h3>
@@ -82,15 +82,15 @@ const HomePage = () => {
           <div className="footer-contact">
             <h3 className="footer-title">Contato</h3>
             <p className="footer-description">Email: contato@gamehub.com</p>
-            <p className="footer-description">Telefone: (11) 1234-5678</p>
+            <p className="footer-description">Telefone: (71) 1234-5678</p>
             <div className="footer-social">
               <a href="#" className="social-icon"><FaFacebookF /></a>
               <a href="#" className="social-icon"><FaTwitter /></a>
-              <a href="#" className="social-icon"><FaInstagram /></a>
+              <a href="#" className="social-iconInsta"><FaInstagram /></a>
             </div>
           </div>
         </div>
-        <p className="footer-copy">© 2024 GameHub. Todos os direitos reservados.</p>
+        <p className="footer-copy">&copy; 2024 GameHub. Todos os direitos reservados.</p>
       </footer>
     </div>
   );
