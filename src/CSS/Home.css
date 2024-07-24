@@ -64,6 +64,7 @@ body {
 .carousel {
   padding: 0px 0px 150px 0px;
   height: 285px;
+  z-index: 11;
   
 }
 
@@ -78,11 +79,11 @@ body {
 }
 
 .carousel .slide {
-  height: 450px;
+  height: 1050px;
 }
 
 .carousel .slide img {
-  height: 285px;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
@@ -92,10 +93,6 @@ body {
   display: flex;
   gap: 20px;
   
-}
-
-.games {
-  margin-top: 200px;
 }
 
 .game-card, .recommendation-item {
@@ -121,7 +118,7 @@ body {
   position: relative;
   z-index: 10;
   left: 67.8%;
-  transform: translateY(-385px);
+  transform: translateY(-504px);
   padding: 0px 0px 120px 0px;
 }
 
@@ -132,7 +129,7 @@ body {
 
 .g1:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  transform: translateY(-390px);
+  transform: translateY(-509px);
 }
 
 .game-title, .rec-title {
