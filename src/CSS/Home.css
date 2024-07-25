@@ -3,7 +3,6 @@
   margin: 0;
 }
 
-
 body {
   margin: 0;
   font-family: 'Inter', 'sasn';
@@ -248,3 +247,15 @@ body {
 
 /* ================================================================= */
 
+ /* Media Query para telas*/
+ @media screen and (min-width: 1400px) and (max-width: 1440px){
+
+ }
+
+ @media (min-width: 1360px) and (max-width: 1366px){
+
+ }
+
+ @media (min-width: 1550px) and (max-width: 1800px){
+
+ }

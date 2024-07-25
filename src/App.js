@@ -6,12 +6,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <Routes>
         <div className="App">
           <Navbar />
-          <Route exact path='/' element={<HomePage />}/>
+          <Routes>
+            <Route exact path='/' element={<HomePage />}/>
+          </Routes>
         </div>
-      </Routes>
     </Router>
   );
 }
