@@ -166,17 +166,18 @@ body {
   margin-bottom: 10px;
 }
 
+
 .footer {
   background-color: #004d40;
-  padding: 40px 20px;
+  padding: 40px;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   margin-top: 40px;
   text-align: center;
   color: white;
-  z-index: 15;
+  z-index: 55;
   position: relative;
-
+  
 
 }
 
@@ -257,17 +258,3 @@ body {
   font-size: 14px;
   margin-top: 20px;
 }
-
-
- /* Media Query para telas*/
- @media screen and (min-width: 1400px) and (max-width: 1440px){
-
- }
-
- @media (min-width: 1360px) and (max-width: 1366px){
-
- }
-
- @media (min-width: 1550px) and (max-width: 1800px){
-
- }
