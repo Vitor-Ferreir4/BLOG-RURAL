@@ -6,8 +6,13 @@
     height: 100%;
     background-color: #004d40;
     padding-top: 60px;
+<<<<<<< HEAD
     transition: transform 5s ease-in-out;
     transform: translateX(638%);
+=======
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0);
+>>>>>>> 586731e595177bf2599dcb5ced458a1aa331bf13
     z-index: 50;
   }
   
@@ -35,6 +40,7 @@
     border: none;
     cursor: pointer;
   }
+<<<<<<< HEAD
   
   .dropdown {
     position: relative;
@@ -87,3 +93,19 @@
     opacity: 1;
     visibility: visible;
   }
+=======
+
+   /* Media Query para telas*/
+   @media screen and (min-width: 1400px) and (max-width: 1440px){
+
+   }
+ 
+   @media (min-width: 1360px) and (max-width: 1366px){
+ 
+   }
+ 
+   @media (min-width: 1550px) and (max-width: 1800px){
+ 
+   }
+  
+>>>>>>> 586731e595177bf2599dcb5ced458a1aa331bf13
