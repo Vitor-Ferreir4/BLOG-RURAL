@@ -30,37 +30,53 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    position: absolute;
-    left: 75.7%;
-    transform: translateX(-50%);
   }
   
   .search-container {
     position: relative;
+    width: 100%;
+    max-width: 600px;
   }
   
   .search-bar {
-    padding: 8px 10px;
-    border: none;
-    border-radius: 20px;
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     outline: none;
-    width: 250px;
-    position: relative;
-    top: 20px;
-    right: 470px;
+    font-size: 16px;
+    transition: box-shadow 0.3s ease;
   }
   
-  .search-icon {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    color: #004d40;
+  .search-bar:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
+  
+  .suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 107%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 4px 4px;
+    z-index: 10;
+    overflow: hidden;
+  }
+  
+  .suggestion-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+  }  
   
   .hamburger {
     position: relative;
-    left: 167%;
+    left: 5867%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

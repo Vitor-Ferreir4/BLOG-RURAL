@@ -5,6 +5,7 @@
 
 
 body {
+  overflow-x: hidden;
   margin: 0;
   font-family: 'Inter', 'sasn';
   color: #333;
@@ -45,7 +46,6 @@ body {
   padding: 20px;
   border-radius: 10px;
   width: 62.8%;
-  z-index: -2;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -55,12 +55,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-.section3 {
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
+
 
 .banner {
   width: 750px;
@@ -68,10 +63,39 @@ body {
 }
 
 .carousel {
-  padding: 0px 0px 150px 0px;
-  height: 285px;
+  position: relative;
+  z-index: 10;
+  height: 435px;
+}
+
+.carousel .carousel-root {
+  position: relative;
   z-index: 11;
-  
+}
+
+.carousel .carousel-slider {
+  overflow: visible;
+}
+
+.carousel .carousel .control-arrow {
+  z-index: 20;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.carousel .carousel .control-arrow:hover {
+  opacity: 1;
+}
+
+.carousel .slide {
+  height: 285px;
+}
+
+.carousel .slide img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
 }
 
 .carousel .carousel-caption {
@@ -83,17 +107,6 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
-
-.carousel .slide {
-  height: 1050px;
-}
-
-.carousel .slide img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
 
 .games, .recommendations {
   display: flex;
@@ -246,5 +259,4 @@ body {
   margin-top: 20px;
 }
 
-/* ================================================================= */
 

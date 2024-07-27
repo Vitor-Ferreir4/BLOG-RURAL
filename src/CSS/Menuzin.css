@@ -6,21 +6,23 @@
     height: 100%;
     background-color: #004d40;
     padding-top: 60px;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(0);
+    transition: transform 5s ease-in-out;
+    transform: translateX(638%);
+    z-index: 50;
   }
   
   .sidebar a {
-    padding: 15px 25px;
+    padding: 15px 30px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     display: block;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, padding-left 0.3s ease;
   }
   
   .sidebar a:hover {
-    background-color: #004d40;
+    background-color: #00695c;
+    padding-left: 40px;
   }
   
   .close-btn {
@@ -34,3 +36,54 @@
     cursor: pointer;
   }
   
+  .dropdown {
+    position: relative;
+    margin: 10px 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  
+  .dropdown .sidebar-link {
+    padding: 15px 30px;
+    cursor: pointer;
+  }
+  
+  .dropdown:hover .dropdown-content,
+  .dropdown .sidebar-link:focus + .dropdown-content,
+  .dropdown .sidebar-link:active + .dropdown-content {
+    display: flex;
+  }
+  
+  .dropdown-content a {
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: #004d40;
+    transition: padding-left 0.3s ease;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #00796b;
+    padding-left: 40px;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease;
+    z-index: 49;
+  }
+  
+  .overlay.show {
+    opacity: 1;
+    visibility: visible;
+  }

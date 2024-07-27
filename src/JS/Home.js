@@ -12,53 +12,60 @@ const HomePage = () => {
           <img src={require('../mídia/banner.webp')} className='banner' alt='banner' />
         </section>
         <section className="section2">
-          <Carousel className="carousel" showThumbs={false} autoPlay infiniteLoop>
-              <div>
-                <img src={require('../mídia/emoji.png')} alt="Carousel 1" />
-              </div>
-              <div>
-                <img src={require('../mídia/oculos.png')} alt="Carousel 2" />
-              </div>
-              <div>
-                <img src={require('../mídia/pikachu.png')} alt="Carousel 3" />
-              </div>
-            </Carousel>
+          <Carousel
+            className="carousel"
+            showThumbs={false}
+            autoPlay
+            infiniteLoop
+            showStatus={false}
+            dynamicHeight
+          >
+            <div>
+              <img src={require('../mídia/teste do carrosel.jpg')} alt="Carousel 1" />
+            </div>
+            <div>
+              <img src={require('../mídia/TESTE DO CAROUSEL.jpg')} alt="Carousel 2" />
+            </div>
+            <div>
+              <img src={require('../mídia/pikachu.png')} alt="Carousel 3" />
+            </div>
+          </Carousel>
         </section>
         <section className="section4">
           <div className="g1">
-                <img src={require('../mídia/game1.png')} alt="Game 1" className="game-image" />
-                <h3 className="game-title">Red Dead Redemption 2</h3>
+            <img src={require('../mídia/game1.png')} alt="Game 1" className="game-image" />
+            <h3 className="game-title">GRUPO 1</h3>
           </div>
         </section>
         <section className="section">
           <div className="games">
             <div className="game-card">
-              <img src={require('../mídia/game1.png')} alt="Game 1" className="game-image" />
-              <h3 className="game-title">Red Dead Redemption 2</h3>
+              <img src={require('../mídia/POST CANA- GP2.png')} alt="Game 1" className="game-image" />
+              <h3 className="game-title">GRUPO 2</h3>
             </div>
             <div className="game-card">
               <img src={require('../mídia/game2.png')} alt="Game 2" className="game-image" />
-              <h3 className="game-title">God Of War Ragnarok</h3>
+              <h3 className="game-title">GRUPO 3</h3>
             </div>
             <div className="game-card">
               <img src={require('../mídia/game3.png')} alt="Game 3" className="game-image" />
-              <h3 className="game-title">Elden Ring</h3>
+              <h3 className="game-title">GRUPO 4</h3>
             </div>
           </div>
         </section>
         <section className="section">
           <div className="recommendations">
             <div className="recommendation-item">
-              <img src={require('../mídia/rec1.png')} alt="Rec 1" className="rec-image" />
-              <h3 className="rec-title">Ghost Of Tsushima</h3>
+              <img src={require('../mídia/G5.png')} alt="Rec 1" className="rec-image" />
+              <h3 className="rec-title">GRUPO 5</h3>
             </div>
             <div className="recommendation-item">
-              <img src={require('../mídia/rec2.png')} alt="Rec 2" className="rec-image" />
-              <h3 className="rec-title">Sekiro Shadows Twice (GOTY Edition)</h3>
+              <img src={require('../mídia/G6.png')} alt="Rec 2" className="rec-image" />
+              <h3 className="rec-title">GRUPO 6</h3>
             </div>
             <div className="recommendation-item">
-              <img src={require('../mídia/rec3.png')} alt="Rec 3" className="rec-image" />
-              <h3 className="rec-title">Hollow Knight</h3>
+              <img src={require('../mídia/G7.png')} alt="Rec 3" className="rec-image" />
+              <h3 className="rec-title">GRUPO 7</h3>
             </div>
           </div>
         </section>
@@ -68,16 +75,6 @@ const HomePage = () => {
           <div className="footer-about">
             <h3 className="footer-title">Sobre o Verde</h3>
             <p className="footer-description">O Verde é seu portal definitivo para todas as novidades e jogos populares. Fique atualizado com os lançamentos e eventos mais recentes no mundo dos games.</p>
-          </div>
-          <div className="footer-links">
-            <h3 className="footer-title">Links Úteis</h3>
-            <ul className="footer-list">
-              <li><a href="#">Início</a></li>
-              <li><a href="#">Novidades</a></li>
-              <li><a href="#">Jogos</a></li>
-              <li><a href="#">Eventos</a></li>
-              <li><a href="#">Contato</a></li>
-            </ul>
           </div>
           <div className="footer-contact">
             <h3 className="footer-title">Contato</h3>
