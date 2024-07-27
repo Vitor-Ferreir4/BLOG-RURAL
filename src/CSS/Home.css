@@ -258,3 +258,78 @@ body {
   font-size: 14px;
   margin-top: 20px;
 }
+
+/* Media Queries */
+@media (max-width: 1440px) and (min-width: 768px) {
+
+  .g1{
+    /*Não tankei fazer, assinado cadu*/
+  }
+
+  .section2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 54.9% !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .carousel{
+    width: 100% !important;
+  }
+
+  .main-content {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .section4{
+    max-height: 40% !important;
+    size: 10% !important;
+  }
+
+  .g1 {
+    left: 60%;
+    transform: translateY(-504px);
+  }
+}
+
+@media (max-width: 1366px) and (min-width: 768px) {
+
+  .section, .section1, .section3, .section4{
+    width: 80%;
+    align-self: center !important;
+  }
+
+  .g1{
+    width: 34.5%;
+    /*não tanquei formatar direitinho pra ela alinhar com o resto, assinado cadu*/
+  }
+
+  .section2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50.9% !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .carousel{
+    width: 100% !important;
+  }
+
+  .main-content {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .section4{
+    max-height: 40% !important;
+    size: 10% !important;
+  }
+
+  .g1 {
+    left: 60%;
+    transform: translateY(-504px);
+  }
+}
