@@ -14,6 +14,8 @@
 .navbar-left {
   display: flex;
   align-items: center;
+  position: relative;
+  left: 90%;
 }
 
 .nav-link {
@@ -36,6 +38,7 @@
     position: relative;
     width: 100%;
     max-width: 600px;
+    
   }
   
   .search-bar {
@@ -75,8 +78,6 @@
   }  
   
   .hamburger {
-    position: relative;
-    left: 5867%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

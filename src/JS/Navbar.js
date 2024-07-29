@@ -16,7 +16,6 @@ const Navbar = () => {
   };
 
   const handleSearchBlur = () => {
-    // Usar setTimeout para evitar fechamento prematuro da lista de sugestões ao clicar em uma sugestão
     setTimeout(() => setShowSuggestions(false), 100);
   };
 
