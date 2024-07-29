@@ -1,6 +1,7 @@
 import './App.css';
 import HomePage from './JS/Home';
 import Navbar from './JS/Navbar';
+import Footera from './JS/Footer'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
           <Routes>
             <Route exact path='/' element={<HomePage />}/>
           </Routes>
+          <Footera />
         </div>
     </Router>
   );

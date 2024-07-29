@@ -260,22 +260,39 @@ body {
 }
 
 /* Media Queries */
-@media (max-width: 1440px) and (min-width: 768px) {
+@media (max-width: 1440px) and (min-width: 768px) { /*Finalizado*/
 
   .g1{
-    /*Não tankei fazer, assinado cadu*/
+    
+    width: 388px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    left: 67.8%;
+    transform: translateY(-504px);
+    padding: 0px 0px 120px 0px;
+
+
   }
 
   .section2 {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    width: 54.9% !important;
+    width: 817px !important;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
 
   .carousel{
-    width: 100% !important;
+    width: 815px !important;
+    
+    
   }
 
   .main-content {
@@ -289,8 +306,9 @@ body {
   }
 
   .g1 {
-    left: 60%;
+    left: 67.8%;
     transform: translateY(-504px);
+    width: 416px;
   }
 }
 
@@ -332,4 +350,14 @@ body {
     left: 60%;
     transform: translateY(-504px);
   }
+}
+
+@media (max-width: 1366px) and (min-width: 768px){
+
+  .banner {
+    width: 750px;
+    margin-bottom: 20px;
+    
+  }
+  
 }

@@ -1,0 +1,90 @@
+
+.footer {
+    background-color: #004d40;
+    padding: 10px 205px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+    border-radius: 0% !important;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 55;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+  
+  .footer-content > div {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+  }
+  
+  .footer-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links .footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links .footer-list li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links .footer-list li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links .footer-list li a:hover {
+    color: lightblue;
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    color: white;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #2575fc;
+    transform: scale(1.1);
+  }
+  
+  .social-iconInsta{
+    font-size: 24px;
+    color: white;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-iconInsta:hover{
+    color: #2575fc;
+    transform: scale(1.1);
+  }
+  
+  .footer-copy {
+    font-size: 14px;
+    margin-top: 20px;
+  }  
