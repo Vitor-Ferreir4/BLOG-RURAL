@@ -319,17 +319,16 @@ body {
     align-self: center !important;
   }
 
-  .g1{
-    width: 34.5%;
-    /*não tanquei formatar direitinho pra ela alinhar com o resto, assinado cadu*/
-  }
+  
 
   .section2 {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    width: 50.9% !important;
+    width: 49.7% !important;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: 120px;
   }
 
   .carousel{
@@ -347,17 +346,23 @@ body {
   }
 
   .g1 {
-    left: 60%;
+    left: 67.85%;
     transform: translateY(-504px);
+    width: 32%;
   }
 }
 
-@media (max-width: 1366px) and (min-width: 768px){
+@media (max-width: 800px) and (min-width: 600px) {
 
-  .banner {
-    width: 750px;
-    margin-bottom: 20px;
-    
+  .section2 {
+    position: relative;
+    right: 0; /* Definido como 0 para mover o elemento para a esquerda */
+    left: -100px; /* Adicionado para mover a seção para a esquerda de forma mais confiável */
   }
-  
+
+  .carousel{
+
+
+  }
+
 }
