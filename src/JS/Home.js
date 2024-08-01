@@ -53,26 +53,34 @@ const HomePage = () => {
                 <h3 className="game-title">GRUPO 3</h3>
               </div>
             </Link>
+            <Link to='/G4'>
             <div className="game-card">
               <img src={require('../mídia/game3.png')} alt="Game 3" className="game-image" />
               <h3 className="game-title">GRUPO 4</h3>
             </div>
+            </Link
           </div>
         </section>
         <section className="section">
           <div className="recommendations">
+            <Link to='/G5'>
             <div className="recommendation-item">
               <img src={require('../mídia/G5.png')} alt="Rec 1" className="rec-image" />
               <h3 className="rec-title">GRUPO 5</h3>
             </div>
+              </Link>
+            <Link to='/G6'>
             <div className="recommendation-item">
               <img src={require('../mídia/G6.png')} alt="Rec 2" className="rec-image" />
               <h3 className="rec-title">GRUPO 6</h3>
             </div>
+              </Link>
+            <Link to='/G7'
             <div className="recommendation-item">
               <img src={require('../mídia/G7.png')} alt="Rec 3" className="rec-image" />
               <h3 className="rec-title">GRUPO 7</h3>
             </div>
+              </Link>
           </div>
         </section>
       </main>
