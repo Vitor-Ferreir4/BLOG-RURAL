@@ -1,5 +1,5 @@
 import React from "react"
-import '../CSS/G2'
+import '../CSS/G2.css'
 
 
 function G2(){
