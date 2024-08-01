@@ -1,6 +1,7 @@
 import React from 'react';
 import '../CSS/Home.css';
 import { Carousel } from 'react-responsive-carousel';
+import { Link } from 'react-router-dom';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const HomePage = () => {
@@ -20,32 +21,38 @@ const HomePage = () => {
             dynamicHeight
           >
             <div>
-              <img src={require('../mídia/teste do carrosel.jpg')} alt="Carousel 1" />
+              <img src={require('../mídia/CACAU.png')} alt="Carousel 1" />
             </div>
             <div>
-              <img src={require('../mídia/TESTE DO CAROUSEL.jpg')} alt="Carousel 2" />
+              <img src={require('../mídia/CANA.png')} alt="Carousel 2" />
             </div>
             <div>
-              <img src={require('../mídia/pikachu.png')} alt="Carousel 3" />
+              <img src={require('../mídia/SOJA.png')} alt="Carousel 3" />
             </div>
           </Carousel>
         </section>
         <section className="section4">
-          <div className="g1">
-            <img src={require('../mídia/game1.png')} alt="Game 1" className="game-image" />
-            <h3 className="game-title">GRUPO 1</h3>
-          </div>
+          <Link to='/G1'>
+            <div className="g1">
+              <img src={require('../mídia/game1.png')} alt="Game 1" className="game-image" />
+              <h3 className="game-title">GRUPO 1</h3>
+            </div>
+          </Link>
         </section>
         <section className="section">
           <div className="games">
-            <div className="game-card">
-              <img src={require('../mídia/POST CANA- GP2.png')} alt="Game 1" className="game-image" />
-              <h3 className="game-title">GRUPO 2</h3>
-            </div>
-            <div className="game-card">
-              <img src={require('../mídia/game2.png')} alt="Game 2" className="game-image" />
-              <h3 className="game-title">GRUPO 3</h3>
-            </div>
+            <Link to='/G2'>
+              <div className="game-card">
+                <img src={require('../mídia/POST CANA- GP2.png')} alt="Game 1" className="game-image" />
+                <h3 className="game-title">GRUPO 2</h3>
+              </div>
+            </Link>
+            <Link to='/G3'>
+              <div className="game-card">
+                <img src={require('../mídia/game2.png')} alt="Game 2" className="game-image" />
+                <h3 className="game-title">GRUPO 3</h3>
+              </div>
+            </Link>
             <div className="game-card">
               <img src={require('../mídia/game3.png')} alt="Game 3" className="game-image" />
               <h3 className="game-title">GRUPO 4</h3>
