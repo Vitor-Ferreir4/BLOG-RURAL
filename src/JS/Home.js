@@ -32,55 +32,55 @@ const HomePage = () => {
           </Carousel>
         </section>
         <section className="section4">
-          <Link to='/G1'>
             <div className="g1">
+          <Link to='/G1' className='linkzin'>
               <img src={require('../mídia/game1.png')} alt="Game 1" className="game-image" />
               <h3 className="game-title">GRUPO 1</h3>
-            </div>
           </Link>
+            </div>
         </section>
         <section className="section">
           <div className="games">
-            <Link to='/G2'>
               <div className="game-card">
-                <img src={require('../mídia/POST CANA- GP2.png')} alt="Game 1" className="game-image" />
-                <h3 className="game-title">GRUPO 2</h3>
+              <Link to='/G2' className='linkzin'>
+                  <img src={require('../mídia/POST CANA- GP2.png')} alt="Game 1" className="game-image" />
+                  <h3 className="game-title">GRUPO 2</h3>
+              </Link>
               </div>
-            </Link>
-            <Link to='/G3'>
               <div className="game-card">
+              <Link to='/G3' className='linkzin'>
                 <img src={require('../mídia/game2.png')} alt="Game 2" className="game-image" />
                 <h3 className="game-title">GRUPO 3</h3>
+              </Link>
               </div>
+              <div className="game-card">
+            <Link to='/G4' className='linkzin'>
+                <img src={require('../mídia/game3.png')} alt="Game 3" className="game-image" />
+                <h3 className="game-title">GRUPO 4</h3>
             </Link>
-            <Link to='/G4'>
-            <div className="game-card">
-              <img src={require('../mídia/game3.png')} alt="Game 3" className="game-image" />
-              <h3 className="game-title">GRUPO 4</h3>
-            </div>
-            </Link
+              </div>
           </div>
         </section>
         <section className="section">
           <div className="recommendations">
-            <Link to='/G5'>
-            <div className="recommendation-item">
-              <img src={require('../mídia/G5.png')} alt="Rec 1" className="rec-image" />
-              <h3 className="rec-title">GRUPO 5</h3>
-            </div>
-              </Link>
-            <Link to='/G6'>
-            <div className="recommendation-item">
-              <img src={require('../mídia/G6.png')} alt="Rec 2" className="rec-image" />
-              <h3 className="rec-title">GRUPO 6</h3>
-            </div>
-              </Link>
-            <Link to='/G7'
-            <div className="recommendation-item">
-              <img src={require('../mídia/G7.png')} alt="Rec 3" className="rec-image" />
-              <h3 className="rec-title">GRUPO 7</h3>
-            </div>
-              </Link>
+                <div className="recommendation-item">
+            <Link to='/G5' className='linkzin'>
+                  <img src={require('../mídia/G5.png')} alt="Rec 1" className="rec-image" />
+                  <h3 className="rec-title">GRUPO 5</h3>
+            </Link>
+                </div>
+              <div className="recommendation-item">
+            <Link to='/G6' className='linkzin'>
+                <img src={require('../mídia/G6.png')} alt="Rec 2" className="rec-image" />
+                <h3 className="rec-title">GRUPO 6</h3>
+            </Link>
+              </div>
+              <div className="recommendation-item">
+            <Link to='/G7' className='linkzin'>
+                <img src={require('../mídia/G7.png')} alt="Rec 3" className="rec-image" />
+                <h3 className="rec-title">GRUPO 7</h3>
+            </Link>
+              </div>
           </div>
         </section>
       </main>

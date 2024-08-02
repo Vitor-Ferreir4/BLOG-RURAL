@@ -27,9 +27,9 @@ const Menuzin = ({ closeSidebar, sidebar }) => {
           <a href="#guides" onClick={() => toggleDropdown('guides')} className="sidebar-link">Guias</a>
           {guidesOpen && (
             <div className="dropdown-content">
-              <a href="#group1" onClick={closeSidebar} className="sidebar-link">Grupo 1</a>
-              <a href="#group2" onClick={closeSidebar} className="sidebar-link">Grupo 2</a>
-              <a href="#group3" onClick={closeSidebar} className="sidebar-link">Grupo 3</a>
+              <a href="/G1" onClick={closeSidebar} className="sidebar-link">Grupo 1</a>
+              <a href="/G3" onClick={closeSidebar} className="sidebar-link">Grupo 3</a>
+              <a href="/G5" onClick={closeSidebar} className="sidebar-link">Grupo 5</a>
             </div>
           )}
         </div>
@@ -37,9 +37,9 @@ const Menuzin = ({ closeSidebar, sidebar }) => {
           <a href="#animations" onClick={() => toggleDropdown('animations')} className="sidebar-link">Animações</a>
           {animationsOpen && (
             <div className="dropdown-content">
-              <a href="#group1" onClick={closeSidebar} className="sidebar-link">Grupo 1</a>
-              <a href="#group2" onClick={closeSidebar} className="sidebar-link">Grupo 2</a>
-              <a href="#group3" onClick={closeSidebar} className="sidebar-link">Grupo 3</a>
+              <a href="/G2" onClick={closeSidebar} className="sidebar-link">Grupo 2</a>
+              <a href="/G4" onClick={closeSidebar} className="sidebar-link">Grupo 4</a>
+              <a href="/G6" onClick={closeSidebar} className="sidebar-link">Grupo 6</a>
             </div>
           )}
         </div>
@@ -47,7 +47,7 @@ const Menuzin = ({ closeSidebar, sidebar }) => {
           <a href="#podcast" onClick={() => toggleDropdown('podcast')} className="sidebar-link">Podcast</a>
           {podcastOpen && (
             <div className="dropdown-content">
-              <a href="#group1" onClick={closeSidebar} className="sidebar-link">Grupo 1</a>
+              <a href="/G7" onClick={closeSidebar} className="sidebar-link">Grupo 7</a>
             </div>
           )}
         </div>
