@@ -23,6 +23,11 @@
   
   .g6-content {
     margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 22px;
+    margin: 20px;
   }
   
   .g6-video {
@@ -56,10 +61,13 @@
     font-size: 32px;
     color: #2980b9;
     margin-bottom: 10px;
+    
   }
   
   .g6-readmore {
     display: inline-block;
+    position: relative;
+    left: 43%;
     padding: 20px 30px;
     background-color: #2980b9;
     color: #fff;
@@ -68,7 +76,6 @@
     transition: background-color 0.3s;
     cursor: pointer;
     margin-bottom: 20px;
-    text-align: center;
     margin-right: 0;
     margin-left: 0;
     margin-top: 0;
@@ -95,7 +102,6 @@
   
   .footer-item img {
     width: 100%;
-    height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
     transition: 0.3s;
@@ -112,4 +118,24 @@
     font-size: 14px;
     color: #7f8c8d;
   }
-  
+
+  .ctxt2 {
+    display: flex;
+    justify-content: center;
+  }
+  .rec-image {
+    position: relative;
+    top: 55px;
+    border-radius: 10px 10px 0 0;
+    max-width: 80%;
+    max-height: 66%;
+    margin-bottom: 0px;
+  }
+  .liss{
+
+    padding-left: 15px;
+  } 
+  .sub-sub{
+    position: relative;
+    top: 65px;
+  }
