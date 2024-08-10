@@ -35,9 +35,10 @@
     margin-bottom: 20px;
   }
   
-  .g6-video iframe {
+  .g6-video video {
     border: none;
     border-radius: 8px;
+    
   }
   
   .g6-content p {

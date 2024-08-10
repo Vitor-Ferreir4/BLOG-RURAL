@@ -12,13 +12,10 @@ function G6() {
       </header>
       <div className="g6-content">
         <div className="g6-video">
-          <iframe
-            width="616"
-            height="347"
-            src={require('../mídia/Hakari.mp4')}
-            title="YouTube video"
-            allowFullScreen
-          ></iframe>
+        <video width="616" height="347" controls>
+          <source src={require('../mídia/Hakari.mp4')} type="video/mp4"/>
+          Your browser does not support the video tag.
+        </video>
         </div>
         <div className='paragrafos' id='paragrafos'>
           <h2 className='ctxt2'>Contexto 1</h2>
