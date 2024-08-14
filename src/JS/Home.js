@@ -43,7 +43,7 @@ const HomePage = () => {
           <div className="games">
               <div className="game-card">
               <Link to='/G2' className='linkzin'>
-                  <img src={require('../mídia/POST CANA- GP2.png')} alt="Game 1" className="game-image" />
+                  <img src={require('../mídia/g2-card.jpg')} alt="Game 1" className="game-image" />
                   <h3 className="game-title">GRUPO 2</h3>
               </Link>
               </div>
