@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../CSS/Navbar.css';
+import { Link } from 'react-router-dom';
 import Menuzin from './Menuzin';
 
 const Navbar = () => {
@@ -43,6 +44,9 @@ const Navbar = () => {
             <div className="bar"></div>
             <div className="bar"></div>
           </button>
+          <Link to='/' onClick={handleSuggestionClick} className='logo'>
+            <img className="logo" src={require('../mídia/logo2.png')} alt='' height={90} width={90}/>
+          </Link>
         </div>
         <div className="navbar-center">
           <div className="search-container">

@@ -40,6 +40,18 @@
     border-radius: 8px;
     
   }
+
+  .g7-video video{
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    left: 23.5%;
+ }
+
+  .g4-video video{
+    position: relative;
+    left: 23.5%;
+ }
   
   .g6-content p {
     font-size: 22px;

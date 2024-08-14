@@ -9,7 +9,7 @@ const HomePage = () => {
     <div className="homepage-container">
       <main className="main-content">
         <section className="section3">
-          <img src={require('../mídia/banner.webp')} className='banner' alt='banner' />
+          <img src={require('../mídia/banner4.jpg')} className='banner' alt='banner' height={429.19}/>
         </section>
         <section className="section2">
           <Carousel
@@ -21,22 +21,22 @@ const HomePage = () => {
             dynamicHeight
           >
             <div>
-              <img src={require('../mídia/CACAU.png')} alt="Carousel 1" />
+              <img src={require('../mídia/cacau.avif')} alt="Carousel-1" />
             </div>
             <div>
               <img src={require('../mídia/CANA.png')} alt="Carousel 2" />
             </div>
             <div>
-              <img src={require('../mídia/SOJA.png')} alt="Carousel 3" />
+              <img src={require('../mídia/SOJA.webp')} alt="Carousel 3" />
             </div>
           </Carousel>
         </section>
         <section className="section4">
             <div className="g1">
-          <Link to='/G1' className='linkzin'>
-              <img src={require('../mídia/game1.png')} alt="Game 1" className="game-image" />
+            <a href="g1-guia.pdf" target="_blank" rel="noopener noreferrer" className="linkzin">
+              <img src={require('../mídia/g1-card.jpg')} alt="Game 1" className="game-image" />
               <h3 className="game-title">GRUPO 1</h3>
-          </Link>
+            </a>
             </div>
         </section>
         <section className="section">
@@ -48,14 +48,14 @@ const HomePage = () => {
               </Link>
               </div>
               <div className="game-card">
-              <Link to='/G3' className='linkzin'>
-                <img src={require('../mídia/game2.png')} alt="Game 2" className="game-image" />
+              <a href="g3-guia.pdf" target="_blank" rel="noopener noreferrer" className="linkzin">
+                <img src={require('../mídia/G4.png')} alt="Game 2" className="game-image" />
                 <h3 className="game-title">GRUPO 3</h3>
-              </Link>
+              </a>
               </div>
               <div className="game-card">
             <Link to='/G4' className='linkzin'>
-                <img src={require('../mídia/game3.png')} alt="Game 3" className="game-image" />
+                <img src={require('../mídia/g4-card.jpg')} alt="Game 3" className="game-image" />
                 <h3 className="game-title">GRUPO 4</h3>
             </Link>
               </div>
@@ -64,20 +64,20 @@ const HomePage = () => {
         <section className="section">
           <div className="recommendations">
                 <div className="recommendation-item">
-            <Link to='/G5' className='linkzin'>
-                  <img src={require('../mídia/G5.png')} alt="Rec 1" className="rec-image" />
+                <a href="g5-guia.pdf" target="_blank" rel="noopener noreferrer" className="linkzin">
+                  <img src={require('../mídia/G5.png')} alt="Rec 1" className="game-image" />
                   <h3 className="rec-title">GRUPO 5</h3>
-            </Link>
+                </a>
                 </div>
               <div className="recommendation-item">
             <Link to='/G6' className='linkzin'>
-                <img src={require('../mídia/G6.png')} alt="Rec 2" className="rec-image" />
+                <img src={require('../mídia/g6-card.png')} alt="Rec 2" className="game-image" />
                 <h3 className="rec-title">GRUPO 6</h3>
             </Link>
               </div>
               <div className="recommendation-item">
             <Link to='/G7' className='linkzin'>
-                <img src={require('../mídia/G7.png')} alt="Rec 3" className="rec-image" />
+                <img src={require('../mídia/G7.png')} alt="Rec 3" className="game-image" />
                 <h3 className="rec-title">GRUPO 7</h3>
             </Link>
               </div>

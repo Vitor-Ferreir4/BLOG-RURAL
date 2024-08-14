@@ -14,10 +14,10 @@ function G7() {
       </header>
       <div className="g6-content">
         <div className="g7-video">
-        <audio controls>
-            <source src={require('../mídia/DEFINITIVOOOO.mp3')} type="audio/mp3"/>
-            Your browser does not support the audio element.
-        </audio>
+        <video width="616" height="347" controls>
+          <source src={require('../mídia/video g7.mp4')} type="video/mp4"/>
+          Your browser does not support the video tag.
+        </video>
         </div>
         <div className='paragrafos' id='paragrafos'>
           <h2 className='ctxt2'>Contexto 1</h2>

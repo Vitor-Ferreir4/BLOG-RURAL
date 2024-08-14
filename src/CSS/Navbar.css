@@ -2,13 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #004d40;
+  background-color: #114b06;
   padding: 10px 20px;
   position: relative;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   width: 117%;
   position: relative;
   right: 10%;
+  height: 50px;
+}
+
+.logo {
+  position: relative;
+  right: 850%;
 }
 
 .navbar-left {
