@@ -16,7 +16,7 @@ function G2() {
             <div className="g2-content">
                 <div className="g2-video">
                     <video width="616" height="347" controls>
-                        <source src={require('../mídia/Hakari.mp4')} type="video/mp4" />
+                        <source src={require('../mídia/animaçãoG2.mp4')} type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
             <br></br>

@@ -21,13 +21,13 @@ const HomePage = () => {
             dynamicHeight
           >
             <div>
-              <img src={require('../mídia/cacau.avif')} alt="Carousel-1" />
+              <img src={require('../mídia/CACAU.png')} alt="Carousel-1" />
             </div>
             <div>
               <img src={require('../mídia/CANA.png')} alt="Carousel 2" />
             </div>
             <div>
-              <img src={require('../mídia/SOJA.webp')} alt="Carousel 3" />
+              <img src={require('../mídia/SOJA.png')} alt="Carousel 3" />
             </div>
           </Carousel>
         </section>

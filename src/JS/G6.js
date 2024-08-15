@@ -13,7 +13,7 @@ function G6() {
       <div className="g6-content">
         <div className="g6-video">
         <video width="616" height="347" controls>
-          <source src={require('../mídia/Hakari.mp4')} type="video/mp4"/>
+          <source src={require('../mídia/animaçao g6.mp4')} type="video/mp4"/>
           Your browser does not support the video tag.
         </video>
         </div>
