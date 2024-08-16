@@ -27,9 +27,9 @@ const Menuzin = ({ closeSidebar, sidebar }) => {
           <a href="#guides" onClick={() => toggleDropdown('guides')} className="sidebar-link">Guias</a>
           {guidesOpen && (
             <div className="dropdown-content">
-              <a href="/G1" onClick={closeSidebar} className="sidebar-link">Grupo 1</a>
-              <a href="/G3" onClick={closeSidebar} className="sidebar-link">Grupo 3</a>
-              <a href="/G5" onClick={closeSidebar} className="sidebar-link">Grupo 5</a>
+              <a href="g1-guia.pdf" target="_blank" rel="noopener noreferrer" onClick={closeSidebar} className="sidebar-link">Grupo 1</a>
+              <a href="g3-guia.pdf" target="_blank" rel="noopener noreferrer" onClick={closeSidebar} className="sidebar-link">Grupo 3</a>
+              <a href="g5-guia.pdf" target="_blank" rel="noopener noreferrer" onClick={closeSidebar} className="sidebar-link">Grupo 5</a>
             </div>
           )}
         </div>
