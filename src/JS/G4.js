@@ -93,7 +93,7 @@ function G4() {
           A produção de cacau deve ser equilibrada com a proteção ambiental para garantir a sustentabilidade a longo prazo da cultura e dos meios de subsistência dos agricultores.
         </p>
 
-        <a href="#readmore" className="g6-readmore">Leia mais</a>
+        <a href="g3-guia.pdf" target="_blank" rel="noopener noreferrer" className="g6-readmore">Leia mais</a>
       </div>
       <footer className="g6-footer">
         <div className="footer-item">
