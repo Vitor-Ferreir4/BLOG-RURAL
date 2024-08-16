@@ -103,7 +103,7 @@ Na década de 70, o grão já era a principal cultura do agronegócio brasileiro
         Deve-se levar em consideração que esse tipo de produção provoca sérios problemas ambientais como: perda de solos, retirada da vegetação original, poluição dos solos e das águas, extinção das nascentes, morte de animais silvestres que consomem cereais com substâncias químicas, entre outros.
         </p>
 
-        <a href="#readmore" className="g6-readmore">Leia mais</a>
+        <a href="g5-guia.pdf" target="_blank" rel="noopener noreferrer" className="g6-readmore">Leia mais</a>
       </div>
       <footer className="g6-footer">
         <div className="footer-item">
